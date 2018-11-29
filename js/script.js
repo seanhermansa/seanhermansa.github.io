@@ -51,7 +51,7 @@ $(document).ready(function() {
 	});
 
 
-	$("#navigation li a").click(function(e){
+	$("#navigation li a, #about a").click(function(e){
 		e.preventDefault();
 
 		var targetElement = $(this).attr("href");
