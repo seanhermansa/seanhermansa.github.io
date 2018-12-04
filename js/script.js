@@ -28,7 +28,7 @@ $(document).ready(function() {
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
-		showCursor: false
+		showCursor: false //
 	});
 
 	$('.owl-carousel').owlCarousel({
@@ -51,7 +51,7 @@ $(document).ready(function() {
 	});
 
 
-	$("#navigation li a, #about a").click(function(e){
+	$("#navigation li a, #scrolldown").click(function(e){
 		e.preventDefault();
 
 		var targetElement = $(this).attr("href");
