@@ -24,7 +24,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Frontend Development.", "Improvement.", "Backend Development.", "Dedication."],
+		strings: ["Customer Support.", "Improvement.", "Coding.", "Dedication."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
